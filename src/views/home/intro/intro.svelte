@@ -1,6 +1,7 @@
 <script>
 import James from "james";
 
+
 let limbs = {    
     lArm: {        
         before: 15,        
@@ -131,10 +132,32 @@ let body = {
         max-width: 600px;
     }
 }
-.about .text p {
+.about .text {
     border: solid var(--border-size-s) var(--je-red);
     padding: 40px; 
-    font-size: var(--font-size-l);
+    p {
+        font-size: var(--font-size-l);
+    }
+}
+
+.email {
+    transition: 0.2s;
+    background-color: var(--je-red);
+    border-radius: 5px;
+    &:hover {
+        background-color: var(--je-gold);
+        cursor: pointer;
+    }
+}
+
+.img {
+    width: 40px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--je-primary);
 }
 </style>
 
@@ -144,7 +167,17 @@ let body = {
         <h3>Front End Developer</h3>
     </div>
     <div class="about">
-        <div class="text"><p>Hey there! I’m James, a Front End Developer from Seattle. I’m a self starter with a drive to learn the newest tech I can get my hands on. I have experience in large scale companies like Amazon, but also in start ups and the freelance world. Let’s chat! </p></div>
+        <div class="text">
+            <p>Hey there! I’m James, a Front End Developer from Seattle. I’m a self starter with a drive to learn the newest tech I can get my hands on. I have experience in large scale companies like Amazon, but also in start ups and the freelance world. Let’s chat! </p>
+            <div class="d-flex align-items-center">
+                <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=evans.james00@gmail.com" target="_blank">
+                    <p class="email p-1">Email</p>
+                </a>
+                <a href="https://www.linkedin.com/in/james-evans-46020314a/" target="_blank">
+                    <img class="img ml-2" src="images/linkedin.svg"/>
+                </a>
+            </div>
+        </div>
         <div class="james"><James {limbs} {body}/></div>
     </div>
 </div>
