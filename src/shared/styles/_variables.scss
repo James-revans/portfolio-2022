@@ -1,0 +1,84 @@
+//SCSS map used for building responsive utility classes
+
+$breakpoints: (
+    "sm": 576px,
+    "md": 577px,
+    "lg": 769px,
+    "xl": 993px,
+    "xxl": 1200px,
+);
+// --font-size-xxxl: 5rem;
+// --font-size-large: 3rem;
+// --font-size-xxl: 2.1rem;
+// --font-size-xl: 36px;
+// --font-size-l: 24px;
+// --font-size-m: 18px;
+// --font-size-s: 14px;
+// --font-size-xs: 10px;
+
+:root {
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    --font-family: "Open Sans", sans-serif;
+    --font-family-fatface: "Abril Fatface", cursive;
+    --font-family-josefin: "Josefin Sans", sans-serif;
+    --font-family-sans-pro: "Source Sans Pro", sans-serif;
+    --font-family-merriweather: "Merriweather", serif;
+    --font-light: 300;
+    --font-regular: 400;
+    --font-bold: 700;
+    --font-size-xxxl: 8rem;
+    --font-size-xxl: 5rem;
+    --font-size-xl: 1.75rem;
+    --font-size-l: 24px;
+    --font-size-m: 18px;
+    --font-size-s: 14px;
+    --font-size-xs: 10px;
+    --spacer: var(--font-size-m);
+    --border-radius: 7px;
+    --grid-gap: 30px;
+    --line-height-short: 1.15;
+    --line-height-medium: 2.5;
+
+    --dark-4: rgb(0, 0, 0);
+    --dark-3: #2d2d2d;
+    --dark-2: #2c2c2b;
+    --dark-1: #424242;
+    --white: rgb(255, 255, 255);
+    --light-3: #d8d8d8;
+    --light-2: #afaeae;
+    --light-1: #818181;
+
+    --je-red: #fd5c5a;
+    --je-gold: #fecb75;
+    --je-tan: #fcf5e2;
+    --je-light-bg: #8bdada;
+    --je-bg: #4cc2c0;
+
+    --skin: #ffd1c2;
+    --skin2: #feb59e;
+    --hair: #524747;
+    --shirt: #8186ff;
+    --pants: #4cc2c0;
+
+    --color-text-primary: var(--dark-4);
+    --color-text-inverted: var(--white);
+    --color-background: var(--je-tan);
+    --color-card: var(--light-3);
+
+    --box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.158);
+
+    --z-1: 1;
+    --z-2: 100;
+    --z-3: 500;
+    --z-4: 900;
+    --z-5: 1000;
+
+    --border-size-l: 1.5rem;
+    --border-size-m: 0.75rem;
+    --border-size-s: 0.5rem;
+}

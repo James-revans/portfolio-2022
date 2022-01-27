@@ -1,0 +1,16 @@
+@import "./mixins";
+
+.app-container {
+    padding: 0 1rem;
+}
+
+.section-container {
+    position: relative;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+    @include break-up('lg') {
+        padding: 0 5rem;
+    }
+}

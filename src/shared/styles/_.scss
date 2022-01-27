@@ -1,0 +1,22 @@
+// @import "../lib/";
+@import "variables";
+@import "utilities/";
+@import "normalize";
+@import "typography";
+@import "containers";
+@import "mixins";
+@import "skills";
+
+body,
+html {
+    margin: 0 auto;
+    background: var(--color-background);
+    overflow-x: hidden;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
