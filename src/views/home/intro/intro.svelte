@@ -126,17 +126,21 @@ let body = {
         justify-content: center;
     }
 }
-.about .text {
-    width: 100%;
-    @include break-up('lg') {
-        max-width: 600px;
-    }
-}
+
 .about .text {
     border: solid var(--border-size-s) var(--je-red);
     padding: 40px; 
+    width: 100%;
+
     p {
-        font-size: var(--font-size-l);
+        font-size: var(--font-size-m);
+    }
+
+    @include break-up('lg') {
+        max-width: 600px;
+        p {
+            font-size: var(--font-size-l);
+        }
     }
 }
 
@@ -150,15 +154,21 @@ let body = {
     }
 }
 
+.img-email {
+    height: 40px;
+    width: auto;
+}
+
 .img {
-    width: 40px;
-    height: auto;
+    height: 30px;
+    width: auto;
 }
 
 a {
     text-decoration: none;
     color: var(--je-primary);
 }
+
 </style>
 
 <div class="intro">
@@ -171,14 +181,14 @@ a {
             <p>Hey there! I’m James, a Front End Developer from Seattle. I’m a self starter with a drive to learn the newest tech I can get my hands on. I have experience in large scale companies like Amazon, but also in start ups and the freelance world. Let’s chat! </p>
             <div class="d-flex align-items-center">
                 <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=evans.james00@gmail.com" target="_blank">
-                    <p class="email p-1">Email</p>
+                    <img class="img-email" src="images/iconmonstr-email.svg"/>
                 </a>
                 <a href="https://www.linkedin.com/in/james-evans-46020314a/" target="_blank">
-                    <img class="img ml-2" src="images/linkedin.svg"/>
+                    <img class="img ml-2" src="images/iconmonstr-linkedin-1.svg"/>
                 </a>
             </div>
         </div>
-        <div class="james"><James {limbs} {body}/></div>
+        <div class="james mt-3"><James {limbs} {body}/></div>
     </div>
 </div>
 

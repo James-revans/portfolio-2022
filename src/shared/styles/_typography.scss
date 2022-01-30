@@ -47,7 +47,7 @@ li,
 a,
 button {
     font-family: var(--font-family-merriweather);
-    font-size: var(--font-size-xs);
+    font-size: var(--font-size-m);
     @include break-up("lg") {
         font-size: var(--font-size-m);
     }

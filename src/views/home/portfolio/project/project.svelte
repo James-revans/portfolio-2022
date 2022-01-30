@@ -55,13 +55,14 @@ onMount(() => {
 
 .link-text {
     display: inline-block;
-    color: var(--color-text-primary);
+    color: white;
+    transition: 0.5s;
 } 
 
 .link {
     text-decoration: none;
     background: var(--je-red);
-    padding: 1.5rem 2rem;
+    padding: 1rem 1.5rem;
     border-radius: 5px;
     transition: 0.2s;
     color: white;
@@ -69,13 +70,16 @@ onMount(() => {
     &:hover {
         background: var(--je-gold);
     }
+    &:hover .link-text {
+        color: var(--color-text-primary);
+    }
 }
 
 .text {
-    font-size: var(--font-size-l);
+    font-size: var(--font-size-m);
     font-weight: var(--font-regular);
     @include break-up("lg") {
-        font-size: var(--font-size-xl);
+        font-size: var(--font-size-l);
     }
 }
 </style>
@@ -85,7 +89,7 @@ onMount(() => {
         <h2 class="mb-1 mt-0 pb-2 title">{title}</h2>
         <div>
             <p class="text pb-1">{description}</p>
-            <a class="link mb-4" href="{link}" target="_blank"><h3 class="link-text mb-0">Visit</h3></a>
+            <a class="link mb-4" href="{link}" target="_blank"><p class="link-text mb-0">Visit</p></a>
         </div>
     </div>
     <div class="child child-right">

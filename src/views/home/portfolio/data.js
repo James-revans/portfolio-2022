@@ -7,6 +7,13 @@ export default [
         link: "https://brandservices.amazon.com/brandregistry"
     },
     {
+        title: "qudonote",
+        skills: ["Svelte"],
+        description: "Notes app that saves your progress in the url. Type or draw something, copy the url, and send it to a friend!",
+        img: "images/qudonote.png",
+        link: "https://qudonote.io"
+    },
+    {
         title: "Red Twig Café",
         skills: ["Vue", "Ecommerce", "CMS integration"],
         description: "Red Twig is a local cafe whose website I made from the ground up at Qudo Creative. This site includes access to a CMS for the customer to easily change the menu or other aspects of the website.",
