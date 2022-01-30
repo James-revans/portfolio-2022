@@ -110,35 +110,39 @@ const setBodyAfter = () => {
     values.body.Y = body.after.Y;
 }
 
-const setValues = () => {
-
+const animation = (i) => {
+    for(let [key, {before, after, time}] of Object.entries(limbs)) {
+        if(i%2 === 0) {
+            values[key].deg = before;
+            setBodyBefore();
+        } else {
+            values[key].deg = after;
+            setBodyAfter();
+        }
+        values[key].time = time/1000;
+        setTimeout(() => {
+            if(i%2 === 0) {
+                values[key].deg = after;
+                setBodyAfter();
+            } else  {
+                values[key].deg = before;
+                setBodyBefore();
+            }
+        }, 1);
+    }
 }
 
 const loopAnimation = () => {
     let i = 0;
+    setTimeout(() => {
+        animation(i);
+    }, 500);
     const loop = () => {
         if(i < 50) {
-            setTimeout(() => {console.log('starting');
+            setTimeout(() => {
+                console.log('starting');
                 i++
-                for(let [key, {before, after, time}] of Object.entries(limbs)) {
-                    if(i%2 === 0) {
-                        values[key].deg = before;
-                        setBodyBefore();
-                    } else {
-                        values[key].deg = after;
-                        setBodyAfter();
-                    }
-                    values[key].time = time/1000;
-                    setTimeout(() => {
-                        if(i%2 === 0) {
-                            values[key].deg = after;
-                            setBodyAfter();
-                        } else  {
-                            values[key].deg = before;
-                            setBodyBefore();
-                        }
-                    }, 1);
-                }
+                animation(i);
                 loop();
             }, 3000)
         }

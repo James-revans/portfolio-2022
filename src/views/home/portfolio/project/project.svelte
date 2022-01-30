@@ -30,7 +30,6 @@ onMount(() => {
     overflow: hidden;
 }
 
-
 .title {
     position: relative;
     display: inline-block;

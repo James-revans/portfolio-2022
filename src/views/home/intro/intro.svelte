@@ -1,7 +1,6 @@
 <script>
 import James from "james";
 
-
 let limbs = {    
     lArm: {        
         before: 15,        
@@ -119,7 +118,6 @@ let body = {
 
 .about {
     display: flex;
-    // justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     @include break-up('lg') {
