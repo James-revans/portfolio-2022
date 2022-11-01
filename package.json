@@ -59,6 +59,8 @@
     },
     "dependencies": {
         "matter-js": "^0.14.1",
-        "sal.js": "^0.8.5"
+        "sal.js": "^0.8.5",
+        "svelte-hamburgers": "^3.0.1",
+        "svelte-spa-router": "^3.3.0"
     }
 }

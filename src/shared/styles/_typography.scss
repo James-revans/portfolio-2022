@@ -3,12 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import "./mixins";
 
 body,
 html {
-    font-family: var(--font-family-merriweather);
+    font-family: var(--font-family-inter);
     font-size: var(--font-size-m);
+    letter-spacing: 0.1px;
 }
 
 .t-light {
@@ -46,7 +48,7 @@ span,
 li,
 a,
 button {
-    font-family: var(--font-family-merriweather);
+    font-family: var(--font-family-inter);
     font-size: var(--font-size-m);
     @include break-up("lg") {
         font-size: var(--font-size-m);
@@ -54,14 +56,12 @@ button {
 }
 h1 {
     font-size: var(--font-size-xxl);
-    font-weight: var(--font-regular);
     @include break-up("lg") {
         font-size: var(--font-size-xxxl);
     }
 }
 h2 {
     font-size: var(--font-size-xl);
-    font-weight: var(--font-regular);
     @include break-up("lg") {
         font-size: var(--font-size-xxl);
     }
@@ -74,6 +74,8 @@ h3 {
     }
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-fatface);
+
+h1, h2, h3, h4, h5, h6, label {
+    font-family: var(--font-family-inter);
+    font-weight: var(--font-bold);
 }

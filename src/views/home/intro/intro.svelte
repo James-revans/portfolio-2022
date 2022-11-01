@@ -105,6 +105,11 @@ let body = {
 <style type="text/scss">
 @import '../../../shared/styles/_mixins';
 
+.intro {
+    position: relative;
+    z-index: 1;
+}
+
 .name {
     margin: 100px auto;
     text-align: center; 

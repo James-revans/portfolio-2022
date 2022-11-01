@@ -25,7 +25,6 @@ import Project from "./project/project.svelte";
     margin-top: -10px;
     background-color: var(--je-tan);
     overflow: hidden;
-
 }
 
 </style>

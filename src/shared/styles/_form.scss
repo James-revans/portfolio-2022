@@ -1,0 +1,42 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: var(--font-family-inter);
+    font-weight: var(--font-bold);
+    padding-bottom: 1rem;
+}
+
+input, textarea {
+    margin-bottom: 2rem;
+    padding: 0.5rem 0;
+    border: none;
+    border-bottom: solid 2px var(--je-light-bg);
+    background-color: transparent;
+    transition: 0.2s;
+}
+input:focus, textarea:focus {
+    border-bottom: solid var(--border-size-s) var(--je-bg);
+    transition: 0.2s;
+}
+
+.btn, button, input[type=submit] {
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+    background-color: var(--je-red);
+    color: white;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.btn:hover, .btn:focus, button:hover, button:focus, input[type=submit]:hover, input[type=submit]:focus {
+    background-color: var(--je-gold);
+    border-bottom: none;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}

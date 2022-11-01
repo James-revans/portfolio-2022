@@ -30,7 +30,7 @@
 export default [
     {
         title: "Small-Business Website Building",
-        items: ["SquareSpace", "wix", "Shopify", "Stripe", "Mobile-friendly" ]
+        items: ["Static site generation", "CDN" ]
     },
     {
         title: "Languages",
