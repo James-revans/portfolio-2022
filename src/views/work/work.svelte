@@ -135,11 +135,11 @@ a {
                         <h4 class="feature-title">Unlimited revisions</h4>
                         <p>That's right! I want you to get the product you want. And when you to update it with new hours or products, I'm ready to make the change.</p>
                         <h4 class="feature-title">24/7 support</h4>
-                        <p>Unexpected things can happen in the tech world. Servers can crash, websites can get overflooded, but with 24/7 support I'm ready to step in and fix it on the spot.</p>
+                        <p>Unexpected things can happen in the tech world. Servers can crash, websites can get overloaded, but with 24/7 support I'm ready to step in and fix it on the spot.</p>
                         <h4 class="feature-title">Analytics Dashboard</h4>
                         <p>Using the power of Google Analytics, you'll be able to have crucial insight into your userbase.</p>
                         <h4 class="feature-title">Responsive layouts built for desktop and mobile devices</h4>
-                        <p>Your website will load just as fast and be just as smooth on mobile phones as a desktop.</p>
+                        <p>Your website will load just as fast and be just as smooth on mobile phones as on a desktop.</p>
                         <h4 class="feature-title">Frequent full website audits</h4>
                         <p>With me, you'll get full website audits to ensure the best SEO practices are in place, no bugs have come up, and that the user experience is never broken.</p>
                         <h4 class="feature-title">SEO and Speed Scores</h4>
