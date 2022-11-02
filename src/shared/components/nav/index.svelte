@@ -33,9 +33,9 @@
 </div>
 <nav class:nav-active={open} class="nav">
     {#if open}
-        <div class="links mt-6 pt-6" class:links-active={open}>
+        <div class="links mt-6 pt-6">
             {#each links as {name, path}, i}
-                <p transition:fly={{ y: -15, delay: 50 * i }}>
+                <p in:fly={{ y: -15, delay: 50 * i }}>
                     <a class="link" on:click={()=> {open = false}} use:link href={path}>{name}</a>
                 </p>
             {/each}

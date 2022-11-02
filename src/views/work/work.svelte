@@ -32,21 +32,6 @@
     }
 }
 
-.img-email {
-    height: 40px;
-    width: auto;
-}
-
-.img {
-    height: 30px;
-    width: auto;
-}
-
-a {
-    text-decoration: none;
-    color: var(--je-primary);
-}
-
 .title {
     border-bottom: solid var(--border-size-s) var(--je-red);
     display: inline-block;
@@ -105,6 +90,7 @@ a {
 .wave2 {
     position: relative;
 }
+
 
 </style>
 

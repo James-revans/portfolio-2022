@@ -13,7 +13,8 @@ input, textarea {
     margin-bottom: 2rem;
     padding: 0.5rem 0;
     border: none;
-    border-bottom: solid 2px var(--je-light-bg);
+    border-radius: 0;
+    border-bottom: solid var(--border-size-xs) var(--je-light-bg);
     background-color: transparent;
     transition: 0.2s;
 }

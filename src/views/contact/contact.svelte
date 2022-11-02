@@ -14,11 +14,13 @@ h2 {
         <h2 class="title text-center pb-1 my-12 mb-1">Let's Chat</h2>
     </div>
     <form id="contactform" action="https://formsubmit.io/send/evans.james00@gmail.com" method="POST">
+        <input name="_redirect" type="hidden" id="name" value="https://www.jamesevans.dev/#/contact/success">
+
         <label for="name">Name</label>
         <input name="name" placeholder="First and Last name" type="text" id="name" required>
 
         <label for="business-name">Business Name</label>
-        <input name="business-name" placeholder="Business name (if applicable)" type="text" id="b-name" required>
+        <input name="business-name" placeholder="Your Business or Organization's name" type="text" id="b-name" required>
 
         <label for="message">Message</label>
         <textarea name="message" placeholder="Hi James, I'm interested in having a website built..." id="message" required></textarea>
