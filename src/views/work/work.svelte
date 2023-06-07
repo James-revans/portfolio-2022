@@ -117,19 +117,25 @@
                     <h3 class="text-center pb-1 mb-1">For $150/month</h3>
                     <div>
                         <h4 class="feature-title">Full website design</h4>
-                        <p>We will design up to a 5 page website. Generally consisting of a landing page, contact page, and a few product pages.</p>
+                        <p>We will create a professional and visually appealing website from scratch, customizing it to align with your brand identity and business goals. Our team of experienced designers will ensure your website stands out and captivates your target audience.</p>
+
                         <h4 class="feature-title">Unlimited revisions</h4>
-                        <p>That's right! I want you to get the product you want. And when you to update it with new hours or products, I'm ready to make the change.</p>
+                        <p>We understand the importance of getting your website just right. That's why we offer unlimited revisions, allowing you to provide feedback and make changes until you are completely satisfied with the final result.</p>
+
                         <h4 class="feature-title">24/7 support</h4>
-                        <p>Unexpected things can happen in the tech world. Servers can crash, websites can get overloaded, but with 24/7 support I'm ready to step in and fix it on the spot.</p>
+                        <p>We believe in providing exceptional customer service, which is why we offer 24/7 support. Whether you have questions, need assistance, or encounter technical issues, our dedicated support team is always available to help you promptly.</p>
+
                         <h4 class="feature-title">Analytics Dashboard</h4>
-                        <p>Using the power of Google Analytics, you'll be able to have crucial insight into your userbase.</p>
+                        <p>Gain valuable insights into your website's performance with our analytics dashboard. Track visitor behavior, monitor traffic sources, and measure conversion rates, empowering you to make data-driven decisions to optimize your online presence.</p>
+
                         <h4 class="feature-title">Responsive layouts built for desktop and mobile devices</h4>
-                        <p>Your website will load just as fast and be just as smooth on mobile phones as on a desktop.</p>
+                        <p>Your website will be designed with responsive layouts, ensuring it looks stunning and functions seamlessly on both desktop and mobile devices. This way, you can provide an exceptional user experience to visitors, regardless of the device they use.</p>
+
                         <h4 class="feature-title">Frequent full website audits</h4>
-                        <p>With me, you'll get full website audits to ensure the best SEO practices are in place, no bugs have come up, and that the user experience is never broken.</p>
+                        <p>We conduct regular comprehensive audits of your website to identify any potential issues or areas for improvement. This proactive approach allows us to ensure your website is running smoothly, up to date, and optimized for performance and security.</p>
+
                         <h4 class="feature-title">SEO and Speed Scores</h4>
-                        <p>View for yourself how fast and optimized your site will be.</p>
+                        <p>We prioritize search engine optimization (SEO) and site speed to enhance your website's visibility and user experience. Our experts will optimize your website's structure, content, and technical aspects, improving your SEO rankings and speed scores, ultimately driving more traffic and engagement.</p>
                     </div>
                     <div>
                     <a href="/contact" use:link class="btn my-6">Get started</a>

@@ -14,7 +14,7 @@
         "login": "now login",
         "now": "now",
         "deploy": "now deploy",
-        "start": "now dev --listen 5000"
+        "start": "now dev --listen 3000"
     },
     "author": "",
     "license": "ISC",
