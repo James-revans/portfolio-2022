@@ -1,4 +1,4 @@
-<style type="text/scss">
+<style>
 h2 {
     border-bottom: solid var(--border-size-m) var(--je-red);
     display: inline-block;

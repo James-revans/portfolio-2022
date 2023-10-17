@@ -9,7 +9,7 @@
         "test": "npm run lint && jest src",
         "build": "rollup -c",
         "autobuild": "npm run build -- -w",
-        "serve": "sirv build --dev",
+        "serve": "sirv build --dev --port 3000",
         "dev": "npm run autobuild",
         "login": "now login",
         "now": "now",

@@ -10,10 +10,10 @@
             name: 'Home',
             path: '/'
         },
-        {
-            name: 'Web Design',
-            path: '/work'
-        },
+        // {
+        //     name: 'Web Design',
+        //     path: '/work'
+        // },
         {
             name: 'Contact',
             path: '/contact'
